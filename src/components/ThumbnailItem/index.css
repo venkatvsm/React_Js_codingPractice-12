@@ -1,0 +1,16 @@
+/* Write your code here. */
+.btnEl {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  margin: 21px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.image {
+  width: 100%;
+  background-color: white;
+}
+.btnel_clear {
+  opacity: 2;
+}

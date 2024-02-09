@@ -1,0 +1,34 @@
+/* Write your code here. */
+.bg_Container {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.imageContainer {
+  padding: 40px;
+}
+.displayImage {
+  width: 100%;
+  border-radius: 35px;
+}
+@media screen and (min-width: 768px) {
+  .displayImage {
+    min-width: 100%;
+  }
+}
+.descriptionContainer {
+  padding-left: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-bottom: 25px;
+  padding-left: 45px;
+}
+.para {
+  font-family: 'Roboto';
+  color: #64748b;
+  padding-left: 45px;
+}
